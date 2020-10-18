@@ -1,5 +1,4 @@
 /usr/libexec/s2i/assemble
 
-pwd
-ls -l
-cp ./post-commit-hook.sh /tmp/src
+ls -l /tmp/scripts
+cp /tmp/scripts/post-commit-hook.sh /tmp/src
