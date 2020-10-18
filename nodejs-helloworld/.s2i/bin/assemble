@@ -1,4 +1,0 @@
-/usr/libexec/s2i/assemble
-
-ls -l /tmp/scripts
-cp /tmp/scripts/post-commit-hook.sh /tmp/src
